@@ -8,7 +8,7 @@ from decouple import config,Csv
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-SECRET_KEY = '#09y6fw6=wd)z+9-&q0!p%r6szpd0k)0qff13u06weu2qleit1'
+SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = True
 
